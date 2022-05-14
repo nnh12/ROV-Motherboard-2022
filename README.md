@@ -24,6 +24,10 @@ The motherboard controls our robot's thrusters. Our surface computer commands th
 External I/O Board Modules
 ---
 The motherboard communicates over I2C to our I/O Board that our external, slotted into the Card-Edge-Sockets (J3 + J6 Pg 2). They are responsible for controling LEDs, Solenoids, and  brushed motor controllers. 
+
+Full System Diagram
+---
+![alt text](https://github.com/nnh12/ROV-Motherboard-2022/blob/main/Blocked%20Diagrams/Images/Motherboard%20.jpg)
   
 
 
