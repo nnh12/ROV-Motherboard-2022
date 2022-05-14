@@ -13,11 +13,13 @@ Cameras
 ---
 The motherboard allows us to access the cameras underwater. The cameras are connected to an external PCIe-USB Exansion card. The motherboard uses a PCIe connector (J10 Pg 3) to convert the PCIe-USB Expansion card to command the RPI CM4 (MOD1B Pg 5) over PCIe. The RPi CM4 then uses ethernet (J13) to communicate to an external surface computer. 
 
+![alt text](https://github.com/nnh12/ROV-Motherboard-2022/blob/main/Blocked%20Diagrams/Images/Motherboard%20Camera%20Block%20Diagram.jpg)
 
 Thrusters
 ---
 The motherboard controls our robot's thrusters. Our surface computer commands the RPi CM4 (MOD1B Pg 5). The RPiCM4 then communicates over USB.20 to a High-Speed-USB-Signal Switch (U8 Pg 6), converting the signal into USB Type-B Micro. This command gets sent to an external module (called PiHawk) that directly drive the thrusters. PiHawk is slotted into one of the motherboard's Card-Edge-Sockets (J8 Pg 2). In addition, to USB 2.0, it also communicates over UART to PiHawk.
 
+![alt text](https://github.com/nnh12/ROV-Motherboard-2022/blob/main/Blocked%20Diagrams/Images/Motherboard%20Thruster%20Diagram.jpg)
 
 External I/O Board Modules
 ---
