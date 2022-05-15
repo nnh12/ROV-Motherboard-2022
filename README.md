@@ -1,5 +1,5 @@
 # Semi-autonomous Submarine Motherboard 
-Motherboard hardware files for our university's semi-autonomous submarine robot for the MATE ROV Robotics Competition (a submersible remotely operated submarine vehicle competition). This motherboard serves as a communication center for our robot using a Rasyberry Pi Computer Module 4 (RPi CM4) to command the thrusters and camera. Designed using Alitum Designer. 
+Motherboard hardware files for our university's semi-autonomous submarine robot for the MATE ROV Robotics Competition (a submersible remotely operated submarine vehicle competition). This motherboard serves as a communication center for our robot using a Rasyberry Pi Computer Module 4 (RPi CM4) to command the thrusters and camera. Designed using Altium Designer. 
 
 Layout Description
 ---
