@@ -1,7 +1,11 @@
 # Semi-autonomous Submarine Motherboard 
-Motherboard hardware files for our university's semi-autonomous submarine robot for the MATE ROV Robotics Competition (a submersible remotely operated submarine vehicle competition). This motherboard serves as a communication center for our robot using a Rasyberry Pi Computer Module 4 (RPi CM4) to command the thrusters and camera. Designed using Altium Designer. 
+Hardware files for our university semi-autonomous submarine robot's motherboard design for the MATE ROV Robotics Competition (a submersible remotely operated submarine vehicle competition). This motherboard connects the surface computer to the main data-handler and general computer for our robot: a Raspberry Pi Compute Module 4. It serves as a module to control the thrusters and cameras on our robot. 
 
-Layout Description
+Motherboard Description
+---
+We chose this device as our main computer because of its high-speed operation and inclusion of many desirable features, namely the support of a PCIe x1 lane. We used this PCIe lane to provide four high-speed USB 3.0 connections, which were used for our cameras. Other than PCIe, our motherboard has Ethernet, which is used to talk with the surface computer, back-up serial connectors, and expansion slots that are used to connect to our daughterboards.
+
+PCB Description
 ---
 Motherboard is a 6 layer board. The full system schematic located in **"Motherboard System Schematic"** and PCB located in **"Motherboard_PCB"**. We have a Top Layer (1) and Bottom Layer (2) for essential routing connection. Next, we have (3) 3.3V layer dedicated to supply 3.3V and a (4) layer for GND GND Plane. Finally, we have a Horizontal Layer (5) and Vertical Layer (6) reserved for the low priority routing connections, such as a GPIO breakout headers. 
 
